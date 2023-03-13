@@ -3,8 +3,8 @@
 ## 🍬 博客
 
 - [Gitee Page](https://yuziikuko.gitee.io/articles/00.html)
-- [稀土掘金]()
-- [CSDN]()
+- [稀土掘金](https://juejin.cn/post/7209928548601610296)
+- [CSDN](http://t.csdn.cn/WwqGp)
 
 ## 🍮 简介
 
