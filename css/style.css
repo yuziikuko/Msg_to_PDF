@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#container {
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  border: 2px dashed #dddddd;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+#container_preview {
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5;
+  display: none;
+}
+
+.title {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  margin: 100px 0 10px;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.row p {
+  margin-bottom: 10px;
+}
+
+/* 图片上传 */
+.drop-div {
+  width: 150px;
+  height: 150px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.dropzone-div {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.dropzone {
+  border-radius: 10px;
+  border: 1px dashed #d8152a;
+  text-align: center;
+}
+
+.drop-no-img {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.preview-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.preview-img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-upload {
+  width: 80px;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid #d8152a;
+  font-size: 12px;
+  color: #d8152a;
+  line-height: 25px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-upload:hover {
+  color: #ffffff;
+  background-color: #d8152a;
+  border: 1px solid #d8152a;
+  transition: all 0.2s linear;
+}
+
+/* 信息输入 */
+.row-input {
+  display: flex;
+  align-items: center;
+}
+
+.row input {
+  width: 300px;
+  height: fit-content;
+  display: inline;
+  margin: 0 10px;
+  padding: 0 5px;
+  font-size: 16px;
+  outline: unset;
+  border-width: 0 0 1px 0;
+  border-style: dashed;
+  border-color: #ffffff;
+  border-radius: unset;
+  background: transparent;
+  color: #ffffff;
+  caret-color: #ffffff; /* 光标颜色 */
+}
+
+/* 电子签名 */
+#signature {
+  width: 100%;
+  height: 200px;
+  margin: 0 0 10px;
+  background-color: #696969;
+  border-radius: 10px;
+  border: 2px dashed #dddddd;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.signature-feature {
+  margin: 0 0 0 10px;
+  padding: 0;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#signature_preview {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  margin: 0 0 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+}
+
+#logo {
+  height: 150px;
+}
+
+#signature_img {
+  height: 100px;
+}
+
+.button-convert {
+  width: 400px;
+  height: 40px;
+  line-height: 1.5;
+  padding: 0 40px;
+  font-size: 16px;
+  padding: 0 25px;
+  margin: 10px auto;
+}
